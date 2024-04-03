@@ -1,0 +1,271 @@
+
+.YT {
+    position: fixed;
+    top: 8px;
+    left: 0px;
+    background-color: red;
+    color: black;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+   
+     border: 5px solid black;
+}
+
+.HOME {
+    position: fixed;
+    top:158px;
+    left: 0px;
+    background-color: blue;
+    color:black;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+   
+     border: 5px solid black;
+}
+
+.SHORTS {
+    position: fixed;
+    top:308px;
+    left: 0px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+   
+     border: 5px solid black;
+}
+
+.SUBSCRIPTION {
+    position: fixed;
+    top:465px;
+    left: 0px;
+    background-color: green;
+    color: black;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+   
+     border: 5px solid black;
+}
+
+
+
+.TOP {
+    position: fixed;
+    background-color: black;
+    top:3px;
+    left:155px;
+    width: 1160px;
+    height: 125px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+}
+
+
+.box1 {
+    position:absolute;
+    background-color: black;
+    top:180px;
+    left:183px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box2 {
+    position: absolute;
+    background-color: black;
+    top:180px;
+    left:580px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+
+.box3 {
+    position: absolute;
+    background-color: black;
+    top:180px;
+    left:980px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box4 {
+    position: absolute;
+    background-color: black;
+    top:550px;
+    left:190px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box5 {
+    position: absolute;
+    background-color: black;
+    top:550px;
+    left:580px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box6 {
+    position: absolute;
+    background-color: black;
+    top:550px;
+    left:980px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box7 {
+    position: absolute;
+    background-color: black;
+    top:950px;
+    left:190px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box8 {
+    position: absolute;
+    background-color: black;
+    top:950px;
+    left:580px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box9 {
+    position: absolute;
+    background-color: black;
+    top:950px;
+    left:980px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box10 {
+    position: absolute;
+    background-color: black;
+    top:1350px;
+    left:190px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.box11 {
+    position: absolute;
+    background-color: black;
+    top:1350px;
+    left:580px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+
+.box12 {
+    position: absolute;
+    background-color: black;
+    top:1350px;
+    left:980px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+
+}
+
+.searchbar {
+    position: fixed;
+    top:38px;
+    left:190px;
+    width: 300px;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.search {
+    position: fixed;
+
+    top:25px;
+    left:680px;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    padding: 1px;
+    
+
+}
+
+.PIC {
+    position: fixed;
+   background-color: goldenrod;
+    top:20px;
+    left:1200px;
+    width: 100px;
+    margin: 5px;
+    padding: 1px;
+    border:5px solid grey;
+}
+
+.bar {
+    font-size: 30px;
+   
+}
+
+.bar2 {
+    font-size: 50px;
+    background-color: red;
+
+}
