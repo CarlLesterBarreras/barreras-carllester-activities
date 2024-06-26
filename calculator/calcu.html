@@ -1,93 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.flex.container {
-  width: 250px;
-  margin: auto;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  
-}
-
-.display {
-  width: 100%;
-  height: 70px;
-  text-align: right;
-  padding: 10px;
-  box-sizing: border-box;
-  border : 10px solid black;
-  background-color: lightblue; 
-  color: black; 
-  font-size: 24px;
-}
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-
-.buttons button {
-  width: 25%;
-  height: 70px;
-  font-size: 24px;
-  border: 10pxsolid black; 
-  background-color: lightgray;
-  cursor: pointer;
-}
-
-
-.buttons button.equal {
-  background-color: green;
-}
-
-
-.buttons button.plus,
-.buttons button.minus,
-.buttons button.times,
-.buttons button.divide {
-  background-color: lightgreen;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <title>FLEX CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-  <div class="flex container">
-    <div class="display" id="display"></div>
-    <div class="buttons">
-      <button onclick="addToDisplay('7')">7</button>
-      <button onclick="addToDisplay('8')">8</button>
-      <button onclick="addToDisplay('9')">9</button>
-      <button onclick="addToDisplay('/')" class="divide">/</button>
-      <button onclick="addToDisplay('4')">4</button>
-      <button onclick="addToDisplay('5')">5</button>
-      <button onclick="addToDisplay('6')">6</button>
-      <button onclick="addToDisplay('*')" class ="times">*</button>
-      <button onclick="addToDisplay('1')">1</button>
-      <button onclick="addToDisplay('2')">2</button>
-      <button onclick="addToDisplay('3')">3</button>
-      <button onclick="addToDisplay('-')" class ="minus">-</button>
-      <button onclick="addToDisplay('0')">0</button>
-      <button onclick="addToDisplay('.')">.</button>
-      <button onclick="calculateResult()" class="equal">=</button>
-      <button onclick="addToDisplay('+')" class="plus">+</button>
-    </div>
+    
+<div class="flex container">
+  <div class="display" id="display"></div>
+  <div class="buttons">
+    <button onclick="addToDisplay('7')">7</button>
+    <button onclick="addToDisplay('8')">8</button>
+    <button onclick="addToDisplay('9')">9</button>
+    <button onclick="addToDisplay('/')" class="divide">/</button>
+    <button onclick="addToDisplay('4')">4</button>
+    <button onclick="addToDisplay('5')">5</button>
+    <button onclick="addToDisplay('6')">6</button>
+    <button onclick="addToDisplay('*')" class ="times">*</button>
+    <button onclick="addToDisplay('1')">1</button>
+    <button onclick="addToDisplay('2')">2</button>
+    <button onclick="addToDisplay('3')">3</button>
+    <button onclick="addToDisplay('-')" class ="minus">-</button>
+    <button onclick="addToDisplay('0')">0</button>
+    <button onclick="addToDisplay('.')">.</button>
+    <button onclick="calculateResult()" class="equal">=</button>
+    <button onclick="addToDisplay('+')" class="plus">+</button>
   </div>
-  
-  <script>
-    function addToDisplay(value) {
-      document.getElementById('display').innerText += value;
-    }
-    
-    function calculateResult() {
-      var displayValue = document.getElementById('display').innerText;
-      var result = eval(displayValue);
-      document.getElementById('display').innerText = result;
-    }
-    </script>
-    
-    </body>
-    </html>  
+</div>
+
+<script>
+function addToDisplay(value) {
+  document.getElementById('display').innerText += value;
+}
+
+function calculateResult() {
+  var displayValue = document.getElementById('display').innerText;
+  var result = eval(displayValue);
+  document.getElementById('display').innerText = result;
+}
+</script>
+
+</body>
+</html>

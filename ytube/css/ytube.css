@@ -1,4 +1,14 @@
-
+.TOP {
+    position: fixed;
+    background-color: black;
+    top:3px;
+    left:155px;
+    width: 1160px;
+    height: 125px;
+    margin: 5px;
+    padding: 10px;
+    border:5px solid black;
+}
 .YT {
     position: fixed;
     top: 8px;
@@ -53,21 +63,11 @@
 
 
 
-.TOP {
-    position: fixed;
-    background-color: black;
-    top:3px;
-    left:155px;
-    width: 1160px;
-    height: 125px;
-    margin: 5px;
-    padding: 10px;
-    border:5px solid black;
-}
+
 
 
 .box1 {
-    position:absolute;
+    position: absolute;
     background-color: black;
     top:180px;
     left:183px;
@@ -267,5 +267,11 @@
 .bar2 {
     font-size: 50px;
     background-color: red;
+
+}
+
+.bar3 {
+    
+    background-color:black;
 
 }

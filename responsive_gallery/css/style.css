@@ -1,0 +1,126 @@
+/*Extra small Devices (landscape tablets,600px and down) */
+@media only screen and (max-width:600px) {
+    .image1 {
+        position:fixed;
+        background-image: url('images/1.png');
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+        top:150px;
+        left:50px;
+        height:300px;
+        width:300px;
+    }
+    .back {
+        position: fixed;
+        background:black;
+        top:60px;
+        left:0px;
+        height: 600px;
+        width: 400px;
+        border: 20px solid rgba(236, 2, 225, 0.829);
+
+    
+       
+       
+    }
+}
+
+/*Small Devices (portrait tablets and large phones,600px and up) */
+@media only screen and (min-width: 600px) {
+    .image2 {
+        position:fixed;
+        background-image: url('images/2.png');
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+        top:150px;
+        left:50px;
+        height:300px;
+        width:300px;
+    }
+    .back2 {
+        position: fixed;
+        background:rgb(8, 1, 0);
+        top:60px;
+        left:0px;
+        height: 600px;
+        width: 400px;
+        border: 20px solid red;
+     
+       
+    }
+}
+
+/*Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .image3 {
+        position:fixed;
+        background-image: url('images/3.png');
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+        top:150px;
+        left:50px;
+        height:300px;
+        width:300px;
+    }
+    .back3 {
+        position: fixed;
+        background:rgb(8, 1, 0);
+        top:60px;
+        left:0px;
+        height: 600px;
+        width: 400px;
+        border: 20px solid rgb(255, 136, 0);
+    }
+}
+
+/*Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .image4 {
+        position:fixed;
+        background-image: url('images/4.png');
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+        top:150px;
+        left:50px;
+        height:300px;
+        width:300px;
+    }
+    
+    .back4{
+        position: fixed;
+        background:rgb(8, 1, 0);
+        top:60px;
+        left:0px;
+        height: 600px;
+        width: 400px;
+        border: 20px solid yellow;
+       
+    }
+}
+
+/*Extra large devices (Large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .image5 {
+        position:fixed;
+        background-image: url('images/5.png');
+        background-repeat: no-repeat;
+        background-size: 300px 300px;
+        top:150px;
+        left:50px;
+        height:300px;
+        width:300px;
+    }
+    .back5{
+        position: fixed;
+        background:rgb(8, 1, 0);
+        top:60px;
+        left:0px;
+        height: 600px;
+        width: 400px;
+        border: 20px solid green;
+     
+       
+    }
+}
+
